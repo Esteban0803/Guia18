@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+    <script src="js/java.js"></script>
+    <title>Java Page 3</title>
+</head>
+<body>
+    <h1>Ejercicio 22</h1>
+    <button name="btn" onclick="boton()">Boton</button>
+
+    <h1>Ejercicio 23 (No me sale)</h1>
+    <p id="texto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Provident consequuntur aperiam saepe commodi nihil mollitia veniam. <br>
+        Commodi illo nam impedit reprehenderit? Nisi, dolores dolor minus consequuntur sequi qui! Voluptate, numquam.
+    </p>
+    
+    <h1>Ejercicio 24</h1>
+    <form id="formCirculo" onsubmit="calcularRadio(); return false;">
+        Ingrese el diámetro del círculo: <input type="number" id="diametro" step="any" required><br>
+        <input type="submit" value="Calcular Radio">
+    </form>
+    <p id="resultado"></p>
+
+    <h1>Ejercicio 25</h1>
+    <form id="form1" onsubmit="getFormValores(); return false;">
+        Nombre: <input type="text" name="nombre" value="Esteban"><br>
+        Apellido: <input type="text" name="apellido" value="Maldonado"><br>
+        <input type="submit" value="Obtener Valores">
+    </form>
+    <p id="valores"></p>
+</body>
+</html>
